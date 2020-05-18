@@ -1,0 +1,90 @@
+body{ 
+    background-color: #232323;
+    font-family: 'Montserrat', sans-serif;
+    color: orange;
+}
+h1{ 
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+h2{ 
+    text-align: center;
+    font-weight: 500;
+    margin-top: .5em;
+    margin-bottom: 2em;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.gameboard {
+    text-align: center;
+    font-size: 1em;
+}
+.scoreboard-container {
+    border : 1px solid orange;
+    display: inline-block;
+    margin: 20px;
+}
+
+.scoreboard{ 
+    border-bottom : 2px solid orange; 
+    font-weight: 700; 
+    width: 180px;
+}
+.playerScoreContainer { 
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+   
+}
+.player { 
+    margin: 0 1em ;
+}
+
+#result {
+    text-decoration: underline;
+}
+
+.resultDisplay { 
+    
+    font-size: 1.1em;
+}
+
+#p1S{
+  font-size: 3em;
+  margin: 0;  
+}
+
+#p2S{
+    font-size: 3em;
+    margin: 0;  
+}
+
+.selectboard{
+    margin: auto;
+    text-align: center;
+    font-size: 1em;
+}
+
+.caption{ 
+    font-weight: 700; 
+}
+
+button, a { 
+    background-color: orange;
+    outline: none;
+    color: #232323;
+    padding: 15px;
+    border: orange;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+  }

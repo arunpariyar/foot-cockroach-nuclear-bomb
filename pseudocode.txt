@@ -1,0 +1,11 @@
+Input
+    take input from 3 buttons
+
+Processing 
+    find a way to make the logic mathmatical
+    generate a random number that corelates with the output values
+    compare the value
+
+Output
+    Display user selection
+    Display result  
